@@ -1,0 +1,64 @@
+.container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    height: 650px;
+    grid-auto-flow: dense;
+}
+
+
+.item{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.apple6{
+   grid-column: 2 / 4;
+   grid-row: 3 / 4;
+}
+.apple1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+    
+    
+
+}
+
+.d{
+    background-color: black;
+}
+
+.h{
+    background-color: red;
+}
+.a{
+    background-color: yellow;
+}
+.g{
+    background-color: blue;
+}
+.e{
+    background-color: yellow;
+}
+.f{
+    background-color: red;
+}
+
+.j{
+    background-color: blue;
+}
+.i{
+    background-color: yellow;
+}
+
+.b{
+    background-color: blue;
+}
+   
