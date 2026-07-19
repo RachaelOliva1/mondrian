@@ -2,7 +2,7 @@
     background-color: black;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 15px;
+    grid-gap: 9px;
     height: 650px;
     grid-auto-flow: dense;
 }
@@ -31,8 +31,14 @@
 
 }
 
+
+
+
+
+
+
 .d{
-    background-color: black;
+    background-color: yellow;
 }
 
 .h{
@@ -41,9 +47,8 @@
 .a{
     background-color: yellow;
 }
-.g{
-    background-color: blue;
-}
+ 
+
 .e{
     background-color: yellow;
 }
@@ -61,4 +66,87 @@
 .b{
     background-color: blue;
 }
-   
+
+
+
+
+
+.apple65{
+   grid-column: 2 / 4;
+   grid-row: 3 / 4;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosyQElzvJr8O8zua97GAsUgb_kyhnl-btW4YhNan_zntLWfeMeoxkB3s&s=10); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.apple15{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB2BGyvwzXNria3BX-w40Bv9jjPP9VjG8ZvOJY726A_SzUw7yWy7IqG70&s=10); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+                  
+}
+
+
+.n {
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglILy3vmLmbI9cqCMnUPdI-vtW102-N1blGr7A28df-0o1YKAqRdbTzZf&s=10); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.p {
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRomrjLJ00YbbG-zL4hBRmUEngRfVzsn0vTnTgZV0Vd7ZXjvU1I77OXdz8&s=10); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.s {
+     background-image: url(https://images.stockcake.com/public/a/0/d/a0df3fa1-fd8f-4bd0-8c21-3b6484879741_large/sunset-flower-field-stockcake.jpg); 
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    background-color: #919191;         
+    padding: 15px 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.top-nav .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;             
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #facd03;                
+}
+.q{
+    font-size:30px;
+    color:#4f4f4f;
+}
